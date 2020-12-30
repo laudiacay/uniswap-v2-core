@@ -37,7 +37,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountTokenMin\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountETHMin\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"migrate\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/laudiacay/work-things/uniswap-v2-core/contracts/interfaces/IUniswapV2Migrator.sol\":\"IUniswapV2Migrator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/laudiacay/work-things/uniswap-v2-core/contracts/interfaces/IUniswapV2Migrator.sol\":{\"keccak256\":\"0xa83ac0f597c04134b3ea423fd55d3077e952197c1991e23c4e304bfb35a90124\",\"urls\":[\"bzz-raw://ec1a3358caaa80af192bf4a8913041b037736412d7d6d5e894d58dadfab3a1da\",\"dweb:/ipfs/QmbYVrgxQZVevcBgTcPUFutk5mpj61BAdmTPMXGiBt1vA8\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountTokenMin\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountETHMin\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"migrate\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/laudiacay/work-things/uniswap-v2-core/contracts/interfaces/IUniswapV2Migrator.sol\":\"IUniswapV2Migrator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/laudiacay/work-things/uniswap-v2-core/contracts/interfaces/IUniswapV2Migrator.sol\":{\"keccak256\":\"0xa83ac0f597c04134b3ea423fd55d3077e952197c1991e23c4e304bfb35a90124\",\"urls\":[\"bzz-raw://ec1a3358caaa80af192bf4a8913041b037736412d7d6d5e894d58dadfab3a1da\",\"dweb:/ipfs/QmbYVrgxQZVevcBgTcPUFutk5mpj61BAdmTPMXGiBt1vA8\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
@@ -474,7 +474,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2020-12-30T02:23:36.578Z",
+  "updatedAt": "2020-12-30T07:01:50.343Z",
   "devdoc": {
     "methods": {}
   },

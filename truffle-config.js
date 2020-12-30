@@ -26,9 +26,17 @@ module.exports = {
           //skipDryRun: true // Skip dry run before migrations? (default: false for public nets )
       },
   },
-//  compilers: {
-//    solc: {
-//      version: "0.6.12"
-//    }
-//  }
+  compilers: {
+    solc: {
+//      version: "0.6.12",
+settings: {
+        // See the solidity docs for advice about optimization and evmVersion
+        optimizer: {
+          enabled: true,
+          runs: 200
+        }
+        //  evmVersion: "byzantium"
+      }
+    }
+  }
 };

@@ -338,7 +338,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[],\"name\":\"DOMAIN_SEPARATOR\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"PERMIT_TYPEHASH\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"nonces\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"},{\"internalType\":\"uint8\",\"name\":\"v\",\"type\":\"uint8\"},{\"internalType\":\"bytes32\",\"name\":\"r\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"s\",\"type\":\"bytes32\"}],\"name\":\"permit\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/laudiacay/work-things/uniswap-v2-core/contracts/interfaces/IUniswapV2ERC20.sol\":\"IUniswapV2ERC20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/laudiacay/work-things/uniswap-v2-core/contracts/interfaces/IUniswapV2ERC20.sol\":{\"keccak256\":\"0x9e433765e9ef7b4ff5e406b260b222c47c2aa27d36df756db708064fcb239ae7\",\"urls\":[\"bzz-raw://5b67c24a5e1652b51ad2f37adad2905519f0e05e7c8b2b4d8b3e00b429bb9213\",\"dweb:/ipfs/QmarJq43GabAGGSqtMUb87ACYQt73mSFbXKyFAPDXpbFNM\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[],\"name\":\"DOMAIN_SEPARATOR\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"PERMIT_TYPEHASH\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"nonces\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"},{\"internalType\":\"uint8\",\"name\":\"v\",\"type\":\"uint8\"},{\"internalType\":\"bytes32\",\"name\":\"r\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"s\",\"type\":\"bytes32\"}],\"name\":\"permit\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/laudiacay/work-things/uniswap-v2-core/contracts/interfaces/IUniswapV2ERC20.sol\":\"IUniswapV2ERC20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/laudiacay/work-things/uniswap-v2-core/contracts/interfaces/IUniswapV2ERC20.sol\":{\"keccak256\":\"0x9e433765e9ef7b4ff5e406b260b222c47c2aa27d36df756db708064fcb239ae7\",\"urls\":[\"bzz-raw://5b67c24a5e1652b51ad2f37adad2905519f0e05e7c8b2b4d8b3e00b429bb9213\",\"dweb:/ipfs/QmarJq43GabAGGSqtMUb87ACYQt73mSFbXKyFAPDXpbFNM\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
@@ -626,7 +626,7 @@
             "scope": 1836,
             "src": "213:54:5",
             "stateMutability": "pure",
-            "superFunction": 1922,
+            "superFunction": 1938,
             "visibility": "external"
           },
           {
@@ -680,7 +680,7 @@
             "scope": 1836,
             "src": "272:56:5",
             "stateMutability": "pure",
-            "superFunction": 1927,
+            "superFunction": 1943,
             "visibility": "external"
           },
           {
@@ -734,7 +734,7 @@
             "scope": 1836,
             "src": "333:50:5",
             "stateMutability": "pure",
-            "superFunction": 1932,
+            "superFunction": 1948,
             "visibility": "external"
           },
           {
@@ -788,7 +788,7 @@
             "scope": 1836,
             "src": "388:52:5",
             "stateMutability": "view",
-            "superFunction": 1937,
+            "superFunction": 1953,
             "visibility": "external"
           },
           {
@@ -870,7 +870,7 @@
             "scope": 1836,
             "src": "445:63:5",
             "stateMutability": "view",
-            "superFunction": 1944,
+            "superFunction": 1960,
             "visibility": "external"
           },
           {
@@ -979,7 +979,7 @@
             "scope": 1836,
             "src": "513:80:5",
             "stateMutability": "view",
-            "superFunction": 1953,
+            "superFunction": 1969,
             "visibility": "external"
           },
           {
@@ -1087,7 +1087,7 @@
             "scope": 1836,
             "src": "599:70:5",
             "stateMutability": "nonpayable",
-            "superFunction": 1962,
+            "superFunction": 1978,
             "visibility": "external"
           },
           {
@@ -1195,7 +1195,7 @@
             "scope": 1836,
             "src": "674:66:5",
             "stateMutability": "nonpayable",
-            "superFunction": 1971,
+            "superFunction": 1987,
             "visibility": "external"
           },
           {
@@ -1330,7 +1330,7 @@
             "scope": 1836,
             "src": "745:84:5",
             "stateMutability": "nonpayable",
-            "superFunction": 1982,
+            "superFunction": 1998,
             "visibility": "external"
           },
           {
@@ -1384,7 +1384,7 @@
             "scope": 1836,
             "src": "835:60:5",
             "stateMutability": "view",
-            "superFunction": 1987,
+            "superFunction": 2003,
             "visibility": "external"
           },
           {
@@ -1438,7 +1438,7 @@
             "scope": 1836,
             "src": "900:59:5",
             "stateMutability": "pure",
-            "superFunction": 1992,
+            "superFunction": 2008,
             "visibility": "external"
           },
           {
@@ -1520,7 +1520,7 @@
             "scope": 1836,
             "src": "964:60:5",
             "stateMutability": "view",
-            "superFunction": 1999,
+            "superFunction": 2015,
             "visibility": "external"
           },
           {
@@ -1732,7 +1732,7 @@
             "scope": 1836,
             "src": "1030:115:5",
             "stateMutability": "nonpayable",
-            "superFunction": 2016,
+            "superFunction": 2032,
             "visibility": "external"
           }
         ],
@@ -2000,7 +2000,7 @@
               "name": "name",
               "scope": 1836,
               "stateMutability": "pure",
-              "superFunction": 1922,
+              "superFunction": 1938,
               "visibility": "external"
             },
             "children": [
@@ -2066,7 +2066,7 @@
               "name": "symbol",
               "scope": 1836,
               "stateMutability": "pure",
-              "superFunction": 1927,
+              "superFunction": 1943,
               "visibility": "external"
             },
             "children": [
@@ -2132,7 +2132,7 @@
               "name": "decimals",
               "scope": 1836,
               "stateMutability": "pure",
-              "superFunction": 1932,
+              "superFunction": 1948,
               "visibility": "external"
             },
             "children": [
@@ -2198,7 +2198,7 @@
               "name": "totalSupply",
               "scope": 1836,
               "stateMutability": "view",
-              "superFunction": 1937,
+              "superFunction": 1953,
               "visibility": "external"
             },
             "children": [
@@ -2264,7 +2264,7 @@
               "name": "balanceOf",
               "scope": 1836,
               "stateMutability": "view",
-              "superFunction": 1944,
+              "superFunction": 1960,
               "visibility": "external"
             },
             "children": [
@@ -2353,7 +2353,7 @@
               "name": "allowance",
               "scope": 1836,
               "stateMutability": "view",
-              "superFunction": 1953,
+              "superFunction": 1969,
               "visibility": "external"
             },
             "children": [
@@ -2469,7 +2469,7 @@
               "name": "approve",
               "scope": 1836,
               "stateMutability": "nonpayable",
-              "superFunction": 1962,
+              "superFunction": 1978,
               "visibility": "external"
             },
             "children": [
@@ -2584,7 +2584,7 @@
               "name": "transfer",
               "scope": 1836,
               "stateMutability": "nonpayable",
-              "superFunction": 1971,
+              "superFunction": 1987,
               "visibility": "external"
             },
             "children": [
@@ -2699,7 +2699,7 @@
               "name": "transferFrom",
               "scope": 1836,
               "stateMutability": "nonpayable",
-              "superFunction": 1982,
+              "superFunction": 1998,
               "visibility": "external"
             },
             "children": [
@@ -2841,7 +2841,7 @@
               "name": "DOMAIN_SEPARATOR",
               "scope": 1836,
               "stateMutability": "view",
-              "superFunction": 1987,
+              "superFunction": 2003,
               "visibility": "external"
             },
             "children": [
@@ -2907,7 +2907,7 @@
               "name": "PERMIT_TYPEHASH",
               "scope": 1836,
               "stateMutability": "pure",
-              "superFunction": 1992,
+              "superFunction": 2008,
               "visibility": "external"
             },
             "children": [
@@ -2973,7 +2973,7 @@
               "name": "nonces",
               "scope": 1836,
               "stateMutability": "view",
-              "superFunction": 1999,
+              "superFunction": 2015,
               "visibility": "external"
             },
             "children": [
@@ -3062,7 +3062,7 @@
               "name": "permit",
               "scope": 1836,
               "stateMutability": "nonpayable",
-              "superFunction": 2016,
+              "superFunction": 2032,
               "visibility": "external"
             },
             "children": [
@@ -3289,7 +3289,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2020-12-30T01:02:56.467Z",
+  "updatedAt": "2020-12-30T07:01:50.341Z",
   "devdoc": {
     "methods": {}
   },
